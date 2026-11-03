@@ -1,0 +1,20 @@
+<?php
+include("connect.php");
+$menu_name = $_POST["menu_name"];
+$category = $_POST["category"];
+$price = $_POST["price"];
+$day = $_POST["day"];
+
+$sql = "INSERT INTO menu(menu_name,category,price,day)
+VALUES('$menu_name','$category','$price','$day') ";
+if (mysqli_query($conn, $sql)) {
+
+echo "<script> window.alert('บันทึกข้อมูลสำเร็จ ok'); </script>";
+echo "<script> window.location.assign('show_all_data.php'); </script>";
+} else {
+echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+echo "<script> window.alert('ไม่สามารถบันทึกข้อมูลได้'); </script>";
+echo "<script> window.location='show_all_data.php'; </script>";
+}
+mysqli_close($conn);
+?>
