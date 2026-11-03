@@ -32,11 +32,13 @@ The project was developed using HTML, CSS, PHP, and MySQL to practice web develo
 - Visual Studio Code
 - Git & GitHub
 - XAMPP
+- InfinityFree
 
 ## Deployment
 
-The website is deployed online for demonstration.
-- **Hosting Platform: InfinityFree
+The website is hosted on InfinityFree and deployed online for demonstration.
+
+- **Hosting Platform:** [InfinityFree](https://dash.infinityfree.com/)
 - **Live Website:** [Visit Coffee Shop Management System](https://cafe-database.nfy.fyi)
 - **GitHub Repository:** [Cafe-s-Database-MySQL](https://github.com/KimThailand/Cafe-s-Database-MySQL)
 
